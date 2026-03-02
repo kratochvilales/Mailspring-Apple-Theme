@@ -54,8 +54,11 @@ body.platform-win32 .sheet-toolbar-container .btn-toolbar:hover {
   transform: translateX(-25px);
 }
 
+// #fixed -> https://github.com/mikebiker/Mailspring-Apple-Theme/issues/1
 .sheet-toolbar .btn-toolbar {
-  box-shadow: 0 0 0 1px @border-color;
+  box-shadow: none;
+  background: none;
+  background-color: none;
 }
 
 // Let toolbar define outer padding/margin
